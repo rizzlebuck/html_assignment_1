@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Module 1 HTML Assignment</title>
   <style>
-    /* Simple style for visual clarity */
-    table, th, td {
-      border: 1px solid black;
+    /* kinda basic styles */
+    table {
+      border: 1px solid gray;
       border-collapse: collapse;
-      padding: 8px;
+    }
+
+    th, td {
+      padding: 6px;
+      border: 1px solid gray;
     }
 
     nav ul {
@@ -25,7 +29,7 @@
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- nav bar stuff -->
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
@@ -34,7 +38,7 @@
     </ul>
   </nav>
 
-  <!-- Contact Form -->
+  <!-- contact form section -->
   <form>
     <h2>Contact Us</h2>
 
@@ -47,21 +51,19 @@
     <label for="message">Message:</label><br>
     <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
 
-    <!-- BONUS: Radio Buttons -->
+    <!-- bonus question maybe -->
     <p>How did you find us?</p>
-    <input type="radio" id="google" name="found" value="Google">
-    <label for="google">Google</label><br>
-    <input type="radio" id="social" name="found" value="Social Media">
-    <label for="social">Social Media</label><br><br>
+    <label><input type="radio" name="found" value="Google"> Google</label><br>
+    <label><input type="radio" name="found" value="Social Media"> Social Media</label><br><br>
 
     <button type="submit">Submit</button>
   </form>
 
   <br>
 
-  <!-- Product Table -->
+  <!-- kinda basic product table -->
   <table>
-    <!-- BONUS: Header row -->
+    <!-- bonus: header row -->
     <tr>
       <th>Product Name</th>
       <th>Price</th>
@@ -69,13 +71,13 @@
     </tr>
     <tr>
       <td>T-Shirt</td>
-      <td>$20</td>
+       <td>$20</td>
       <td>10</td>
     </tr>
     <tr>
       <td>Hat</td>
       <td>$15</td>
-      <td>5</td>
+       <td>5</td>
     </tr>
     <tr>
       <td>Socks</td>
@@ -86,10 +88,10 @@
 
   <br>
 
-  <!-- Images -->
-  <img src="https://placehold.co/300x200" alt="Placeholder image"><br><br>
+  <!-- image just for looks -->
+  <img src="https://placehold.co/300x200" alt="Placeholder image"><br>
 
-  <!-- BONUS: Rounded Image -->
+  <!-- bonus image with rounded corners -->
   <img src="https://placehold.co/300x200" alt="Rounded image" style="border-radius: 10px;">
 
 </body>
