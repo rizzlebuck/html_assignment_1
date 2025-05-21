@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 1 HTML Assignment</title>
+  <style>
+    /* Simple style for visual clarity */
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Form -->
+  <form>
+    <h2>Contact Us</h2>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+    <!-- BONUS: Radio Buttons -->
+    <p>How did you find us?</p>
+    <input type="radio" id="google" name="found" value="Google">
+    <label for="google">Google</label><br>
+    <input type="radio" id="social" name="found" value="Social Media">
+    <label for="social">Social Media</label><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <br>
+
+  <!-- Product Table -->
+  <table>
+    <!-- BONUS: Header row -->
+    <tr>
+      <th>Product Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+      <td>T-Shirt</td>
+      <td>$20</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Hat</td>
+      <td>$15</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Socks</td>
+      <td>$8</td>
+      <td>12</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Images -->
+  <img src="https://placehold.co/300x200" alt="Placeholder image"><br><br>
+
+  <!-- BONUS: Rounded Image -->
+  <img src="https://placehold.co/300x200" alt="Rounded image" style="border-radius: 10px;">
+
+</body>
+</html>
